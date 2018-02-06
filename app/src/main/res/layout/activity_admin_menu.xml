@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Clients Information"
+        android:id="@+id/admin_view_clt_info_btn"
+        android:onClick="goToAdminViewClientInfo"/>
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search FLight"
+        android:id="@+id/admin_flgt_srch_btn"
+        android:onClick="goToAdminViewPersonalInfo"/>
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Itinerary"
+        android:id="@+id/button3"
+        android:onClick="goToAdminSearchItineray"/>
+
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Flights Info"
+        android:id="@+id/admin_upload_flgt_info"
+        android:onClick="goToViewFlightsInfo"/>
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload FlightInformation"
+        android:id="@+id/admin_Itn_srch_btn"
+        android:onClick="goToUploadFlights"/>
+
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Client Information"
+        android:id="@+id/admin_upload_clt_info"
+        android:onClick="goToUploadClientInfo"/>
+
+
+</LinearLayout>

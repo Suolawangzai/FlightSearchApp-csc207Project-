@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Personal Information"
+        android:id="@+id/button2"
+        android:onClick="goToViewPersonalInfo"/>
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Flight"
+        android:id="@+id/button"
+        android:onClick="goToSearchFlight"/>
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Itinerary"
+        android:id="@+id/button3"
+        android:onClick="goToSearchItineray"/>
+
+    <Button
+        android:background="@color/oceanBlue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Booked Itineraries"
+        android:id="@+id/button4"
+        android:onClick="goToViewBookedItineraries"/>
+
+</LinearLayout>

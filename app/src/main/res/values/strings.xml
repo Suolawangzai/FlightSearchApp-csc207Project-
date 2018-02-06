@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flight Helper</string>
+    <string name="action_settings">Settings</string>
+    <string name="greeting">Welcome to Flight Helper!</string>
+    <string name="username_field">Enter your username</string>
+    <string name="password_field">Enter your password</string>
+    <string name="login_button">Log in</string>
+    <string name="person_info_edit_button">Edit</string>
+    <string name="person_info_display_bar">Personal Information</string>
+    <string name="flight_search_button">Search Flight</string>
+    <string name="itinerary_search_button">Search Itinerary</string>
+    <string name="view_personal_info_button">View Personal Information</string>
+    <string name="title_activity_search_flight">SearchFlight</string>
+</resources>
